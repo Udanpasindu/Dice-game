@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">DiceGameCWK</string>
+    <string name="Acknowledgment">
+        Student name:Jayasekara UPW\n
+        Student ID:IT22593382\n
+
+        I confirm that I understand what plagiarism is and have read and\n
+        understood the section on Assessment Offences\n
+        in the Essential Information for Students.
+
+        The work that I have submitted is entirely my own.\n
+        Any work from other authors \n
+        is duly referenced and acknowledged.</string>
+    <string name="Throw">Throw</string>
+    <string name="re_roll">Re-roll</string>
+    <string name="image_of_dice">image of dice</string>
+    <string name="changeTargetScore">You can set a different target Score below</string>
+    <string name="new_game">New game</string>
+    <string name="about">About</string>
+    <string name="instructions">Instructions</string>
+    <string name="_101">101</string>
+    <string name="hard_mode">Hard mode</string>
+    <string name="computer">Computer</string>
+    <string name="image_of_computer">image of computer</string>
+    <string name="image_of_player">image of player</string>
+    <string name="player_name">Player</string>
+    <string name="score">Score</string>
+    <string name="enter_a_number_between_50_to_300_as_your_target_score">Enter a number between 50 to 300 as your target score!</string>
+    <string name="set_score">Set score</string>
+</resources>

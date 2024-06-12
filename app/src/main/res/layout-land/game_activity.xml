@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bluebgk">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/orangebgk"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/totalScores"
+            android:layout_width="305dp"
+            android:layout_height="match_parent"
+
+            android:text=""
+            android:textColor="@color/peachbgk"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/roundTop"
+            android:layout_width="277dp"
+            android:layout_height="37dp"
+
+            android:text=""
+            android:textColor="@color/peachbgk"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="149dp"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textColor="@color/peachbgk"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="386dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtComputerName"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:text="@string/computer"
+                android:textAlignment="center"
+                android:textColor="@color/peachbgk"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imgV_Computer"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:contentDescription="@string/image_of_computer"
+                tools:srcCompat="@drawable/robot" />
+
+            <LinearLayout
+                android:layout_width="348dp"
+                android:layout_height="67dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgVComDie1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="4dp"
+                    android:contentDescription="@string/image_of_dice"
+
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <ImageView
+                    android:id="@+id/imgVComDie2"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="4dp"
+                    android:contentDescription="@string/image_of_dice"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <ImageView
+                    android:id="@+id/imgVComDie3"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="4dp"
+                    android:contentDescription="@string/image_of_dice"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <ImageView
+                    android:id="@+id/imgVComDie4"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="4dp"
+                    android:contentDescription="@string/image_of_dice"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <ImageView
+                    android:id="@+id/imgVComDie5"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="4dp"
+                    android:contentDescription="@string/image_of_dice"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtMiddle"
+                android:layout_width="355dp"
+                android:layout_height="46dp"
+
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/peachbgk"
+
+                android:textSize="15sp" />
+
+            <LinearLayout
+
+                android:layout_width="355dp"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgVPlyDie1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="4dp"
+                    android:contentDescription="@string/image_of_dice"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <ImageView
+                    android:id="@+id/imgVPlyDie2"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="4dp"
+                    android:contentDescription="@string/image_of_dice"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <ImageView
+                    android:id="@+id/imgVPlyDie3"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="4dp"
+                    android:contentDescription="@string/image_of_dice"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <ImageView
+                    android:id="@+id/imgVPlyDie4"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="4dp"
+                    android:contentDescription="@string/image_of_dice"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <ImageView
+                    android:id="@+id/imgVPlyDie5"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="4dp"
+                    android:contentDescription="@string/image_of_dice"
+                    tools:srcCompat="@tools:sample/avatars" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imgV_Player"
+                android:layout_width="355dp"
+                android:layout_height="56dp"
+                android:contentDescription="@string/image_of_player"
+                tools:srcCompat="@drawable/player" />
+
+            <TextView
+                android:id="@+id/txtPlayerName"
+                android:layout_width="358dp"
+                android:layout_height="wrap_content"
+                android:text="@string/player_name"
+                android:textAlignment="center"
+                android:textColor="@color/peachbgk"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="343dp"
+            android:layout_height="317dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_Throw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/orangebgk"
+                android:text="@string/Throw"
+                android:textColor="@color/peachbgk"
+                android:textSize="25sp"
+                android:visibility="visible"
+                app:cornerRadius="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="27dp" />
+
+            <Button
+                android:id="@+id/btn_Score"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/orangebgk"
+                android:text="@string/score"
+                android:textColor="@color/peachbgk"
+                android:textSize="25sp"
+                app:cornerRadius="20dp" />
+
+            <TextView
+                android:id="@+id/txtEditPoints"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:text="@string/enter_a_number_between_50_to_300_as_your_target_score"
+                android:textAlignment="center"
+                android:textColor="@color/peachbgk"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/CustomPoints"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/orangebgk"
+                    android:inputType="number"
+                    android:text="101"
+
+                    android:textColor="@color/peachbgk"
+                    android:textSize="25sp"
+                    app:cornerRadius="20dp" />
+
+                <Button
+                    android:id="@+id/btnSetScore"
+                    android:layout_width="127dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/orangebgk"
+                    android:text="@string/set_score"
+                    android:textColor="@color/peachbgk"
+                    android:textSize="15sp"
+                    app:cornerRadius="20dp" />
+
+            </LinearLayout>
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="177dp"
+                android:layout_height="51dp"
+                android:scrollbarSize="200dp"
+                android:text="@string/hard_mode"
+                android:textColor="@color/peachbgk" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

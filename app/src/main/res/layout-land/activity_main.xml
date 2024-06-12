@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/bluebgk"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="442dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtV_welcome"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:layout_marginTop="20dp"
+            android:text="Welcome to the Dice game!"
+            android:textAlignment="center"
+            android:textColor="@color/peachbgk"
+
+
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="201dp"
+            android:scaleX="1.1"
+            android:src="@drawable/dicewelcome" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="296dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/bluebgk">
+
+        <TextView
+            android:id="@+id/txtV_chose"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="20dp"
+            android:text="Enter your name"
+            android:textAlignment="center"
+            android:textColor="@color/peachbgk"
+
+
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/eTxtPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:backgroundTint="@color/orangebgk"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Player"
+            android:textAlignment="center"
+            android:textColor="@color/peachbgk"
+            android:textSize="20sp" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_newGame"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/orangebgk"
+            android:text="New game"
+            android:textColor="@color/peachbgk"
+            android:textSize="25sp"
+            app:cornerRadius="20dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+        <Button
+            android:id="@+id/btn_instructions"
+            android:layout_width="180dp"
+            android:layout_height="56dp"
+            android:backgroundTint="@color/orangebgk"
+            android:text="@string/instructions"
+            android:textColor="@color/peachbgk"
+            android:textSize="15sp"
+            app:cornerRadius="15dp" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="11dp" />
+
+        <Button
+            android:id="@+id/btn_about"
+            android:layout_width="153dp"
+            android:layout_height="56dp"
+            android:backgroundTint="@color/orangebgk"
+            android:text="About"
+            android:textColor="@color/peachbgk"
+            android:textSize="25sp"
+            app:cornerRadius="15dp" />
+    </LinearLayout>
+
+</LinearLayout>
